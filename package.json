@@ -1,0 +1,43 @@
+{
+  "name": "trademarge",
+  "version": "1.0.0",
+  "description": "Arbitrage Crypto-Currency",
+  "main": "index.js",
+  "dependencies": {
+    "ansicolor": "^1.1.71",
+    "as-table": "^1.0.31",
+    "ccxt": "^1.10.495",
+    "dateformat": "^3.0.2",
+    "mathjs": "^3.18.0",
+    "nodemon": "^1.14.3",
+    "ololog": "^1.1.78",
+    "redis": "^2.8.0",
+    "sleep": "^5.1.1",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "forever --minUptime 20000 --spinSleepTime 15000 exchanges.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mediashare/TradeMarge.git"
+  },
+  "keywords": [
+    "Arbitrage",
+    "Crypto",
+    "Currency",
+    "CryptoCurrency",
+    "margin",
+    "crypto",
+    "exchanges",
+    "crypto",
+    "markets"
+  ],
+  "author": "Marquand Thibault",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Mediashare/TradeMarge/issues"
+  },
+  "homepage": "https://github.com/Mediashare/TradeMarge#readme"
+}
